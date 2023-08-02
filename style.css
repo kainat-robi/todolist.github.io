@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("098.gif");
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 50px;
+  border-radius: 15px;
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  background-color: #ff3b3b;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+li button:hover {
+  background-color: #e60000;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
